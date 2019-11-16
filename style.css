@@ -1,0 +1,93 @@
+/* Write some CSS below */
+
+body {
+	background-color: hsl(35, 25%, 50%);
+}
+h1 {
+	color: hsl(43, 12%, 50%);
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size:  38px;
+	text-align: center; 
+}
+
+
+h2 {
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+
+	
+
+
+
+}
+
+p {
+	font-family: 'Roboto Mono', monospace; 
+	font-size: 12px;
+	text-align: center;
+	color: black;
+
+
+}
+
+a{
+	font-family: 'Roboto Mono', monospace;
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+
+}
+
+a:hover {
+	color: hsl(43, 12%, 50%);
+}
+footer {
+	color:   black;
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+}
+.banner{
+	background-size: cover;
+	background-position: bottom;
+	text-align: center;
+	padding: 50px;
+	width: 100%;
+	height: 100%;
+    background-image: url('images/background.jpeg');
+}
+ .banner p{
+ 	color: white;
+ }
+.white-card{
+    align-items: center;
+    justify-content: space-around;
+	background-color: white;
+	width: 250px;
+	padding: 25px;
+	height: 100%;
+	margin: 16px auto;
+	border-radius:10px;
+	box-shadow: 2px 3px 20px;
+}
+
+.white-card img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.cards{
+	display: flex;
+	justify-content: space-around
+}
+
+.container{
+	width: 1000px;
+	margin: 10px auto;
+	text-align: center;
+}
+.btn{
+	background-color: hsl(58, 11%, 50%);
+	padding: 8px 24px;
+	border-radius:4px;
+}
